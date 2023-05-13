@@ -1,1 +1,1 @@
-# Welcome ot My First Personal Website :)
+# Welcome to My First Personal Website :)
