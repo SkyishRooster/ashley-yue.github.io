@@ -374,6 +374,12 @@ svg:hover {
   letter-spacing: 1px;
 }
 
+@media screen {
+  #hero p {
+    max-width: 70%;
+  }
+}
+
 #hero .word {
   color: #eee;
   text-shadow: 2px 3px #222324, 3px 4px #222324;
