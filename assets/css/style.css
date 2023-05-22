@@ -130,7 +130,7 @@ svg:hover {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 0;
   margin-left: 10px;
 }
@@ -623,7 +623,7 @@ section {
   background-size: cover;
   min-height: 500px;
   padding: 0 10px 20px;
-  bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .about .skills-title {
@@ -649,7 +649,7 @@ section {
 .about .skills-content .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -676,24 +676,6 @@ section {
   background-color: #ffb727;
 }
 
-/* .about .learn-more {
-  cursor: pointer;
-  display: block;
-  position: relative;
-  font-size: 20px;
-  font-weight: 600;
-  width:max-content;
-  color: #ffb727;
-  line-height: 1;
-  height:auto;
-  left:100%;
-  top:30%;
-  bottom:40%;
-  transform:translate(20%,30%);
-  transition: all 0.3s ease-in-out;
-  border: 3px solid #ffc85ad7;
-  padding: 4% 7%;
-} */
 
 .about .container-lm {
   display: flex;
@@ -969,10 +951,17 @@ section {
   font-weight: 600;
   line-height: 1;
   padding: 7px 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #444444;
   transition: all 0.3s ease-in-out;
   border: 2px solid #fff;
+}
+
+@media (max-width: 600px) {
+  .portfolio #portfolio-flters {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .portfolio #portfolio-flters li:hover,
