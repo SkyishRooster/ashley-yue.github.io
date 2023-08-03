@@ -98,6 +98,7 @@ svg:hover {
 */
 .navbar {
   padding: 0;
+  z-index: 999;
 }
 
 .navbar ul {
@@ -733,7 +734,7 @@ section {
   position: -webkit-sticky;
   background-color: #fff;
   top: 60px;
-  z-index: 999;
+  z-index: 99;
 }
 
 @media (max-width: 600px) {
